@@ -22,3 +22,14 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
+### Customize the Text View
+- *Modifiers* wrap a view to change its display to other properties. 
+- Each modifier returns a new view, so it's common to chain multiple modifiers, stacked vertically
+
+```swift
+        Text("Turtle Rock")
+            .font(.title)
+            .foregroundColor(.green)
+```
+### Combine Views Using Stacks
+
