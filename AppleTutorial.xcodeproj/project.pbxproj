@@ -33,6 +33,8 @@
 		6A3D5552242C557400AE0BA1 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3D5545242C557400AE0BA1 /* stmarylake.jpg */; };
 		6A3D5553242C557400AE0BA1 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3D5546242C557400AE0BA1 /* chilkoottrail.jpg */; };
 		6A3D5554242C557500AE0BA1 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3D5547242C557400AE0BA1 /* rainbowlake.jpg */; };
+		6A3D5557242C7C4F00AE0BA1 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3D5556242C7C4F00AE0BA1 /* UserData.swift */; };
+		6A3D5559242C7E0A00AE0BA1 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A3D5558242C7E0900AE0BA1 /* charleyrivers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		6A3D5545242C557400AE0BA1 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		6A3D5546242C557400AE0BA1 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		6A3D5547242C557400AE0BA1 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		6A3D5556242C7C4F00AE0BA1 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		6A3D5558242C7E0900AE0BA1 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +104,10 @@
 				6A3D5516242C259500AE0BA1 /* AppDelegate.swift */,
 				6A3D5518242C259500AE0BA1 /* SceneDelegate.swift */,
 				6A3D551A242C259500AE0BA1 /* LandmarkDetail.swift */,
-				6A3D5533242C4B7D00AE0BA1 /* LandmarkRow.swift */,
 				6A3D5535242C4D3D00AE0BA1 /* LandmarkList.swift */,
+				6A3D552E242C492200AE0BA1 /* Models */,
 				6A3D553A242C557400AE0BA1 /* Resources */,
 				6A3D5537242C555C00AE0BA1 /* Preview Content */,
-				6A3D552E242C492200AE0BA1 /* Models */,
 				6A3D551C242C259E00AE0BA1 /* Assets.xcassets */,
 				6A3D5521242C259E00AE0BA1 /* LaunchScreen.storyboard */,
 				6A3D5524242C259E00AE0BA1 /* Info.plist */,
@@ -126,6 +129,7 @@
 			children = (
 				6A3D552F242C492200AE0BA1 /* Data.swift */,
 				6A3D5530242C492200AE0BA1 /* Landmark.swift */,
+				6A3D5556242C7C4F00AE0BA1 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +146,7 @@
 		6A3D553A242C557400AE0BA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6A3D5558242C7E0900AE0BA1 /* charleyrivers.jpg */,
 				6A3D553B242C557400AE0BA1 /* turtlerock.jpg */,
 				6A3D553C242C557400AE0BA1 /* silversalmoncreek.jpg */,
 				6A3D553D242C557400AE0BA1 /* icybay.jpg */,
@@ -164,6 +169,7 @@
 			children = (
 				6A3D552A242C3F6600AE0BA1 /* CircleImage.swift */,
 				6A3D552C242C42B400AE0BA1 /* MapView.swift */,
+				6A3D5533242C4B7D00AE0BA1 /* LandmarkRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 				6A3D5551242C557400AE0BA1 /* yukon_charleyrivers.jpg in Resources */,
 				6A3D5539242C555C00AE0BA1 /* Preview Assets.xcassets in Resources */,
 				6A3D5523242C259E00AE0BA1 /* LaunchScreen.storyboard in Resources */,
+				6A3D5559242C7E0A00AE0BA1 /* charleyrivers.jpg in Resources */,
 				6A3D5520242C259E00AE0BA1 /* Preview Assets.xcassets in Resources */,
 				6A3D5549242C557400AE0BA1 /* silversalmoncreek.jpg in Resources */,
 				6A3D551D242C259E00AE0BA1 /* Assets.xcassets in Resources */,
@@ -261,6 +268,7 @@
 				6A3D552B242C3F6600AE0BA1 /* CircleImage.swift in Sources */,
 				6A3D5519242C259500AE0BA1 /* SceneDelegate.swift in Sources */,
 				6A3D5534242C4B7D00AE0BA1 /* LandmarkRow.swift in Sources */,
+				6A3D5557242C7C4F00AE0BA1 /* UserData.swift in Sources */,
 				6A3D551B242C259500AE0BA1 /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
