@@ -1,5 +1,11 @@
 # SwiftUIDemo
 
+References:
+https://learnappmaking.com/swiftui-getting-started-how-to-ios-swift/#the-view-a-fundamental-ui-component
+https://developer.apple.com/tutorials/swiftui/tutorials
+
+SwiftUI is a declaritive framework. Basically tells the program what to do and not how to do it, without describing it's control flow.
+
 ## Creating and Combining Views
 
 By default, SwiftUI view files declare two structs. 
