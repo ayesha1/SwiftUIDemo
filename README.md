@@ -33,3 +33,16 @@ struct ContentView_Previews: PreviewProvider {
 ```
 ### Combine Views Using Stacks
 
+## How to go into another View
+
+Inside LandmarkList.swift
+
+```swift
+        ForEach(userData.landmarks) { landmark in
+            if !self.userData.showFavoritesOnly || landmark.isFavorite {
+                NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+```
+
